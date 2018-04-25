@@ -20,4 +20,17 @@ show       Show various types of objects
 status     Show the working tree status
 tag        Create, list, delete or verify a tag object signed with GPG
 
-   
+
+
+
+echo "# notes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:JerrodLeatherman/notes.git
+git push -u origin master
+
+
+
+git remote add origin git@github.com:JerrodLeatherman/notes.git
+git push -u origin master
